@@ -7,7 +7,7 @@ Hardware offline, e.g: Disk Error, NIC Error, RAM Error
 
 Solution:
 Power off the VM and Power on.
-for Disk, run
+for Disk, run fsck to test and check the disks.
 ```bash
 fsck
 ```
