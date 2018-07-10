@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+</head>
+<body>
+<div id="app">
+<select v-model="a">
+    <option value="" disabled>please select</option>
+    <option value="1">Eric</option>
+    <option value="2">Erica</option>
+    <option value="3">Vivi</option>
+
+</select>
+    {{a}}
+</div>
+
+<div id="app-mutliple">
+    <select v-model="b" multiple>
+        <option value="" disable>please select</option>
+        <option value="1">Eric</option>
+        <option value="2">Erica</option>
+        <option value="3">Vivi</option>
+
+    </select>
+    {{b}}
+</div>
+
+<div id="Radio">
+    <input type="radio" v-model="gender" value="M">男
+    <input type="radio" v-model="gender" value="F">女
+    {{gender}}
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm;
+    vm = new Vue({
+        el: '#app',
+        data: {
+            a: '0'
+        }
+    });
+    let vm1 = new Vue({
+        el: '#app-mutliple',
+        data: {
+            b:[]
+        }
+    })
+    let vm2 = new Vue({
+        el: '#Radio',
+        data: {
+            gender:'M'
+        }
+    })
+</script>
+</body>
+</html>
