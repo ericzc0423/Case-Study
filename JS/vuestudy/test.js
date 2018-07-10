@@ -25,4 +25,10 @@ new Vue ({
             a.dispatchEvent(e);
         }
     }
+    //saveFile: function() {
+    //     const data = JSON.stringify(this.arr)
+    //     const fs = require('fs');
+    //     try { fs.writeFileSync('myfile.txt', data, 'utf-8'); }
+    //     catch(e) { alert('Failed to save the file !'); }
+    // }
     });
