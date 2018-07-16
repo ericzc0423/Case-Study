@@ -6,7 +6,7 @@ In this repo, I will share you the following cases:
 - [ ] Java utils
 - [ ] JavaScript
     - [x] ShellCGIwith Ajax
-    - [] 
+    - [x] Websocket - Basic webshell, socket.io,JS
     - [ ] 
 - [ ] Python
     - [ ] 
