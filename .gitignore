@@ -21,3 +21,4 @@ node_modules
 .cache
 idoc-theme-*/
 JS/websocket/node_modules/*
+JS/vuestudy/node_modules/*
