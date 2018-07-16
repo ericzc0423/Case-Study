@@ -20,5 +20,5 @@ Thumbs.db
 node_modules
 .cache
 idoc-theme-*/
-JS/websocket/node_modules/*
+JS/WSshell/node_modules/*
 JS/VUEBasic/node_modules/*
