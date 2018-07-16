@@ -1,11 +1,11 @@
 ## run Shell cgi to display the output on HTML
- -[*] install fcgiwrap
- 
+ -[x] install fcgiwrap
+
 	bash shell
 	apt install fcgiwrap
 
 
- -[*] fcgiwrap conf with nginx
+ -[x] fcgiwrap conf with nginx
 
 	 bash
 	 location ~ (\.sh|\.lua)$ {
