@@ -9,7 +9,14 @@ In this repo, I will share you the following cases:
     - [x] [Websocket - Basic webshell, socket.io,JS](https://github.com/ericzc0423/Case-Study/tree/master/JS/websocket)
     - [ ] 
 - [ ] Python
-    - [ ] 
+    - [ ]
+- [ ] CGI
+    - [x] CGI NGINX install&Conifg
+    - [x] CGI CSS Layout
+    - [x] CGI BASH
+    - [ ] CGI Perl
+    - [ ] CGI Python
+
 - [ ] DevOps
     - [ ] automation
       - [ ] Ansible
