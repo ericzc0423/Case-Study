@@ -11,9 +11,9 @@ In this repo, I will share you the following cases:
 - [ ] Python
     - [ ]
 - [ ] CGI
-    - [x] CGI NGINX install&Conifg
-    - [x] CGI CSS Layout
-    - [x] CGI BASH
+    - [x] [CGI NGINX install&Conifg](https://github.com/ericzc0423/Case-Study/blob/master/ShellCGI/Nginx%20CGI%20how%20to.md)
+    - [x] [CGI CSS Layout](https://github.com/ericzc0423/Case-Study/blob/master/ShellCGI/cgi-bin/CGILayout-CSS.md)
+    - [x] [CGI BASH](https://github.com/ericzc0423/Case-Study/tree/master/ShellCGI/cgi-bin)
     - [ ] CGI Perl
     - [ ] CGI Python
 
