@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高亮显示</title>
+    <style>
+        .found {
+            background: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <form id="textSearch">
+        <textarea id="incoming" cols="150" rows="10">
+
+        </textarea>
+        <p>
+            search pattern: <input id="pattern" type="text">
+        </p>
+    </form>
+    <button id="searchSubmit">Search for pattern</button>
+    <div id="searchResult">
+
+    </div>
+
+    <script>
+            document.getElementById("searchSubmit").onclick=function () {
+                var pattern = document.getElementById("pattern").value;
+                var re = new RegExp(pattern,'g');
+                var searchString = document.getElementById("incoming").value;
+                var matchArray;
+                var resultString="<pre>";
+                var first=0;
+                var last = 0;
+                while (matchArray =re.exec(searchString) != null){
+                    last = matchArray.index;
+                    resultString += searchString.substring(first,last);
+                    resultString += "<span class='found'>"+ matchArray[0] +"</span>";
+                    fisrt = re.lastIndex;
+                }
+                resultString += searchString.substring(first, searchString.length);
+                resultString += "</pre>";
+                document.getElementById("searchResult").innerHTML = resultString;
+
+
+
+            }
+
+    </script>
+</body>
+</html>
