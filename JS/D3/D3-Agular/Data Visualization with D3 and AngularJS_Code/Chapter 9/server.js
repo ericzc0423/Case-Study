@@ -4,7 +4,6 @@ var app = require('express')();
 var http = require('http').Server(app);
 var serveStatic = require('serve-static');
 var io = require('socket.io')(http);
-
 // Serve all files from the root directory
 app.use(serveStatic('.', {'index': ['index.html']}));
 

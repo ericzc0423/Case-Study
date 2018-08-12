@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Webserver Monitor Application",
   "dependencies": {
-    "express": "^4.10.2",
-    "serve-static": "^1.8.1",
-    "socket.io": "^1.3.2"
+    "event": "^1.0.0",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2",
+    "socket-emitter": "^1.5.6",
+    "socket.io": "^1.7.4",
+    "socket.io-events": "^0.4.6"
   }
 }

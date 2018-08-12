@@ -22,3 +22,5 @@ node_modules
 idoc-theme-*/
 JS/WSshell/node_modules/*
 JS/VUEBasic/node_modules/*
+/app/Docs/Case-Study/JS/D3/D3-Agular/Data Visualization with D3 and AngularJS_Code/Chapter 9/.DS_Store
+/app/Docs/Case-Study/JS/D3/D3-Agular/Data Visualization with D3 and AngularJS_Code/Chapter 9/node_modules/*
